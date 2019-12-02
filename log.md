@@ -6,7 +6,7 @@
 Resources:
 [Frontend Roadmap](https://roadmap.sh/frontend)
 [Backend Roadmap](https://roadmap.sh/backend)
-[Frontend Roadmap](https://roadmap.sh/frontend)
+[DevOps Roadmap](https://roadmap.sh/devops)
 
 **Objectives**: I know I'll probably won't get all this done, but in this round, my objectives are to learn or test: 
 
