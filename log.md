@@ -37,4 +37,12 @@ Today's Progress: Tested audio creation with JS
 
 Thoughts: It is more easy than I thought. It could be really fun to build projects with this API
 
+Link to work: [Piano App]("/projects/piano.html")
+
+Day 0: December 2, 2019
+
+Today's Progress: Tested audio creation with JS
+
+Thoughts: It is more easy than I thought. It could be really fun to build projects with this API
+
 Link to work: Piano App
