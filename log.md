@@ -37,10 +37,10 @@ Today's Progress: Tested audio creation with JS
 
 Thoughts: It is more easy than I thought. It could be really fun to build projects with this API
 
-Link to work: [Piano App]("/https://github.com/MaxLacasseG/100-days-of-code/blob/master/projects/piano.html")
+Link to work: [Piano App](/https://github.com/MaxLacasseG/100-days-of-code/blob/master/projects/piano.html)
 
 Day 1: December 3, 2019
 
 Today's Progress: Tested audio creation with JS (continued). Created a small piano with flex boxes. Will add event listeners for longer notes
 
-Link to work: [Piano App]("/https://github.com/MaxLacasseG/100-days-of-code/blob/master/projects/piano.html")
+Link to work: [Piano App](/https://github.com/MaxLacasseG/100-days-of-code/blob/master/projects/piano.html)
