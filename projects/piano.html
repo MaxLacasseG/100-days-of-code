@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Piano exercice</title>
+    </head>
+    <body>
+        <main>
+            <div>
+                <h1>Piano exercice</h1>
+            </div>
+            <div>
+                <h2 class="playbtn" data-frequency="261.6">Do</h2>
+                <h2 class="playbtn" data-frequency="293.7">Ré</h2>
+                <h2 class="playbtn" data-frequency="329.6">Mi</h2>
+                <h2 class="playbtn" data-frequency="349.2">Fa</h2>
+                <h2 class="playbtn" data-frequency="392.0">Sol</h2>
+                <h2 class="playbtn" data-frequency="440.0">La</h2>
+                <h2 class="playbtn" data-frequency="493.9">Si</h2>
+                <h2 class="playbtn" data-frequency="523.3">Do</h2>
+            </div>
+        </main>
+        <script>
+            var context, o, g;
+
+            function Play(note) {
+                context = new AudioContext();
+                o = context.createOscillator();
+                g = context.createGain();
+                o.connect(g);
+                g.connect(context.destination);
+                o.frequency.value = note;
+                o.start(0);
+                g.gain.exponentialRampToValueAtTime(0.00001, context.currentTime + 1.5);
+            }
+
+            var playbtns = document.getElementsByClassName("playbtn");
+            for (const btn of playbtns) {
+                btn.addEventListener(
+                    "click",
+                    e => {
+                        Play(e.currentTarget.dataset.frequency);
+                    },
+                    false
+                );
+            }
+        </script>
+    </body>
+</html>
